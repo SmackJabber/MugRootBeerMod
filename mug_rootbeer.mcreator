@@ -1,0 +1,257 @@
+{
+  "mod_elements": [
+    {
+      "name": "RawAluminum",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum"
+    },
+    {
+      "name": "AluminumBar",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_bar"
+    },
+    {
+      "name": "Aluminum",
+      "type": "tag",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum"
+    },
+    {
+      "name": "AluminumOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ore"
+    },
+    {
+      "name": "AluminumSmelting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_smelting"
+    },
+    {
+      "name": "EmptyCan",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_can"
+    },
+    {
+      "name": "SassafrasLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafras_log"
+    },
+    {
+      "name": "SassafrassPlank",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafrass_plank"
+    },
+    {
+      "name": "Sassafrassplanks",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafrassplanks"
+    },
+    {
+      "name": "Sassafrassroots",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafrassroots"
+    },
+    {
+      "name": "Sassafrassrootsrecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafrassrootsrecipe"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs"
+    },
+    {
+      "name": "MugRootBeerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mug_root_beer_player_finishes_using_item",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MugRootBeer",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mug_root_beer"
+    },
+    {
+      "name": "Mugrootbeerrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mugrootbeerrecipe"
+    },
+    {
+      "name": "Sassafrassleaves",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafrassleaves"
+    },
+    {
+      "name": "Sassafrasstree",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sassafrasstree"
+    },
+    {
+      "name": "SasssaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasssapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sasssapling",
+      "type": "plant",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasssapling"
+    },
+    {
+      "name": "SasssaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasssapling_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emptycanrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptycanrecipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mug_rootbeer.raw_aluminum": "Raw Aluminum",
+      "block.mug_rootbeer.sassafrass_plank": "Sassafrass Plank",
+      "item.mug_rootbeer.empty_can": "Empty Can",
+      "block.mug_rootbeer.aluminum_ore": "Aluminum Ore",
+      "item.mug_rootbeer.sassafrassroots": "Sassafrass Root",
+      "item.mug_rootbeer.mug_root_beer": "Mug Root Beer",
+      "block.mug_rootbeer.sassafrassleaves": "Sassafrassleaves",
+      "item.mug_rootbeer.aluminum_bar": "Aluminum Bar",
+      "block.mug_rootbeer.sassafras_log": "Sassafras Log",
+      "block.mug_rootbeer.sasssapling": "Sassafrass Sapling"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mug_rootbeer",
+    "modName": "Mug Rootbeer",
+    "version": "1.0.0",
+    "author": "a_coa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.17.1",
+    "modElementsPackage": "net.mcreator.mugrootbeer",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mug_rootbeer:blocks/sasafrasstop",
+    "up": "mug_rootbeer:blocks/sasafrasstop",
+    "north": "mug_rootbeer:blocks/sassafraslogside",
+    "east": "mug_rootbeer:blocks/sassafraslogside",
+    "south": "mug_rootbeer:blocks/sassafraslogside",
+    "west": "mug_rootbeer:blocks/sassafraslogside",
+    "particle": "mug_rootbeer:blocks/sasafrasstop"
+  }
+}

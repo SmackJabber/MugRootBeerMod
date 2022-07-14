@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mug_rootbeer:blocks/sassafrassleaves",
+    "particle": "mug_rootbeer:blocks/sassafrassleaves"
+  }
+}

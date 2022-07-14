@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mug_rootbeer",
+  "version": "1.0.0",
+  "name": "Mug Rootbeer",
+  "authors": [
+    "a_coa, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.mugrootbeer.MugRootbeerMod"
+    ],
+    "client": [
+      "net.mcreator.mugrootbeer.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "accessWidener": "modid.accesswidener"
+}

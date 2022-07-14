@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "mug_rootbeer:sassafrass_plank"
+    },
+    "1": {
+      "item": "mug_rootbeer:sassafrass_plank"
+    }
+  },
+  "result": {
+    "item": "mug_rootbeer:sassafrassroots",
+    "count": 4
+  }
+}

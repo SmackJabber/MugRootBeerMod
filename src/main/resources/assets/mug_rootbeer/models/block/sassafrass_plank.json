@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mug_rootbeer:blocks/sasplank",
+    "up": "mug_rootbeer:blocks/sasplank",
+    "north": "mug_rootbeer:blocks/sasplank",
+    "east": "mug_rootbeer:blocks/sasplank",
+    "south": "mug_rootbeer:blocks/sasplank",
+    "west": "mug_rootbeer:blocks/sasplank",
+    "particle": "mug_rootbeer:blocks/sasplank"
+  }
+}

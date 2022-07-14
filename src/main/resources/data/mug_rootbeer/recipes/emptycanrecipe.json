@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mug_rootbeer:aluminum_bar"
+    },
+    "3": {
+      "item": "mug_rootbeer:aluminum_bar"
+    },
+    "5": {
+      "item": "mug_rootbeer:aluminum_bar"
+    },
+    "7": {
+      "item": "mug_rootbeer:aluminum_bar"
+    }
+  },
+  "result": {
+    "item": "mug_rootbeer:empty_can",
+    "count": 1
+  }
+}

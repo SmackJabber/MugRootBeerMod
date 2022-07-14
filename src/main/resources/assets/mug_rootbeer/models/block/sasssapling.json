@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mug_rootbeer:blocks/sasssapling",
+    "particle": "mug_rootbeer:blocks/sasssapling"
+  }
+}

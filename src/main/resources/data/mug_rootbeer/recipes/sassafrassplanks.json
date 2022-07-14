@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mug_rootbeer:sassafras_log"
+    }
+  ],
+  "result": {
+    "item": "mug_rootbeer:sassafrass_plank",
+    "count": 4
+  }
+}
